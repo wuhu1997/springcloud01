@@ -57,6 +57,7 @@ public class OrdersController {
         Orders number = orderService.findorder(userid,productid);
         System.out.println(number);
         //model.addAttribute("number",number);
+        System.out.println("111");
         return number;
     }
 
